@@ -25,6 +25,9 @@
 }
 .dark-exceptional{}
 
+
+/*shared btn*/
+
 .primary-btn
 {background-color: rgba(78, 71, 255, 1);
 font-weight: bold;
@@ -68,7 +71,7 @@ nav ul li a{
 .banner-main{
    
 text-align: center;
-margin: 309px 267.5px 152px 267.5px;
+margin: 158px 267.5px 152px 267.5px;
 
 
 }
@@ -81,3 +84,42 @@ font-weight: bold;
     margin: 36px 0 152px 0;
     
 }
+
+/*main-section one*/
+
+.section-one-both{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 159px 0 141px;
+    max-width: 1140px;
+    height: 328px;
+
+}
+
+.section-one-size{
+    max-width: 517px;
+    height: 203px;
+    margin-bottom: 23px;
+}
+
+.section-one-title{
+
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.section-one-description{
+
+    font-size: 24px;
+}
+
+.section-one-img{
+
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+/*main-section two*/
+
