@@ -51,6 +51,10 @@ border: none;
 cursor: pointer;
 
 }
+.primary-btn:hover {
+    background-color: rgb(145, 206, 185);
+}
+
 /*header-background-image*/
 
 .header-img{ 
