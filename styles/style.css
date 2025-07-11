@@ -48,6 +48,7 @@ padding: 12px 36px;
 border-radius: 10px;
 font-size: 16px;
 border: none;
+cursor: pointer;
 
 }
 /*header-background-image*/
@@ -136,7 +137,7 @@ font-weight: bold;
 /*main-section two*/
 
 .sec-two-main{
-     background-color: rgba(177, 175, 175, 0.5);
+     background-color: #FFFFFF;
     border-radius: 24px;
     max-width: 1140px;
     margin-top: 116px;
@@ -228,7 +229,39 @@ margin-top: 24px;
 }
 /*section four*/
 
+.four-bg{
 
+    background-color: #FFFFFF;
+    margin: 137px 150px;
+    align-items: center;
+    border-radius: 14px;
+    max-width: 1140px;
+    height: 699.77px;
+     box-shadow: rgba(0, 0, 0, 0.06);
+}
+.four-text-main{
 
+    text-align: center;
+}
 
+.four-text-main h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 71px;
+    margin-bottom: 20px;
+}
 
+.four-text-main p{
+font-size: 14px;
+    margin-bottom: 20px;
+    color: rgba(179, 179, 179, 1);
+}
+
+.four-text-main button{
+    margin-bottom: 20px;
+}
+.four-img{
+    width: 840px;
+    height: 364.77px;
+    border-radius: 48px;
+}
