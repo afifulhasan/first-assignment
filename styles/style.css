@@ -265,3 +265,113 @@ font-size: 14px;
     height: 364.77px;
     border-radius: 48px;
 }
+/*section five*/
+
+
+    .five-main {
+
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+     
+
+    }
+
+
+    .five-container {
+
+      display: flex;
+      background-color: #f1f5ff;
+      max-width: 900px;
+      width: 100%;
+      padding: 60px 40px;
+      gap: 40px;
+
+    }
+
+
+    .five-text {
+
+      flex: 1;
+      display: flex;
+      align-items: center;
+      font-size: 60px;
+      font-weight: bold;
+      color: #111;
+
+    }
+
+
+    .five-form {
+
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+    }
+
+
+    .five-form label {
+
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 4px;
+
+    }
+
+
+    .five-form input,
+
+    .five-form textarea {
+
+      padding: 12px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      width: 100%;
+      resize: none;
+
+    }
+
+
+    .five-form textarea {
+
+      height: 100px;
+
+    }
+
+
+    .five-form button {
+
+      background-color: #4f46e5;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      font-size: 15px;
+      cursor: pointer;
+
+
+    }
+    @media (max-width: 768px) {
+
+      .five-container {
+
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+
+      }
+
+
+      .five-text {
+
+        justify-content: center;
+        font-size: 32px;
+
+      }
+
+    }
