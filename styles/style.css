@@ -375,3 +375,37 @@ font-size: 14px;
       }
 
     }
+    /*footer section*/
+
+   .last-container{
+    text-align: center;
+   
+   }
+   .last-logo{
+    font-size: 100px;
+    color: #4E47FF;
+    margin-top: 104px;
+   
+    
+   }
+
+   .last-description{
+    font-size: 14px;
+    color:#8987A1 ;
+   
+   }
+   .last-list{
+    display: flex;
+   justify-content: space-around;
+  margin: 20px 350px 20px 350px;  
+   }
+
+   .last-line{
+    list-style: none;
+   }
+
+   .decoration-text{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 14px;
+   }
